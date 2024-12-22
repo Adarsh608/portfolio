@@ -6,7 +6,7 @@
   <div class="container flex-lg-column">
     <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
       <span class="h4 d-block d-lg-none">Portfolio</span>
-      <!-- <img src="../assets/img/Mahesh_Profile.JPG" class="d-none d-lg-block rounded-circle mt-4" alt="maheshk" /> -->
+      <!-- <img src="../assets/img/Adarsh_Raoo.jpg" class="d-none d-lg-block rounded-circle mt-4" alt="maheshk" /> -->
     </a>
     <button
       #navbarToggler
@@ -34,8 +34,16 @@
           <a (click)="collapseNav()" class="nav-link" href="#work">Project</a>
         </li>
 
-        <li class="nav-item" [class.active]="activeNavItem === 'about'">
-          <a (click)="collapseNav()" class="nav-link" href="#about"> About </a>
+        <li class="nav-item" [class.active]="activeNavItem === 'experience'">
+          <a (click)="collapseNav()" class="nav-link" href="#experience"> Experiences </a>
+        </li>
+
+        <li class="nav-item" [class.active]="activeNavItem === 'certification'">
+          <a (click)="collapseNav()" class="nav-link" href="#certification"> Certificate </a>
+        </li>
+
+        <li class="nav-item" [class.active]="activeNavItem === 'education'">
+          <a (click)="collapseNav()" class="nav-link" href="#education"> Education </a>
         </li>
 
         <li class="nav-item" [class.active]="activeNavItem === 'contact'">
@@ -70,7 +78,6 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8">
-          <!-- <img src="../assets/img/Mahesh_Profile.JPG" class="w-50 p-3 mt-2 d-block d-lg-none mx-auto" alt="maheshk" /> -->
           <h1 class="display-4 fw-bold">
             Hi, I'm <span class="headName">Adarsh Rao</span>
           </h1>
@@ -101,7 +108,6 @@
       <div class="row pb-4" data-aos="fade-up">
         <div class="col-lg-8">
           <h4 class="text-brand">Skills</h4>
-          <!-- <h2>Tools & Technologies</h2> -->
         </div>
       </div>
       <div class="row gy-5">
@@ -256,7 +262,6 @@
       <div class="row pb-4" data-aos="fade-up">
         <div class="col-lg-8">
           <h4 class="text-brand">Project</h4>
-          <!-- <h2>Recent Projects</h2> -->
         </div>
       </div>
 
@@ -296,100 +301,20 @@
             </div>
           </div>
         </div>
-
-        <!-- <div class="col-lg-4 mb-4 d-flex">
-          <div class="card-custom rounded-4 bg-base shadow-effect">
-            <div class="card-custom-content p-4">
-              <h4>Web E-Store</h4>
-              <p class="text">
-                Web e-commerce store using fake api, created frontend UI using
-                Angular and Angular Material. Add Stripe payment gateway.
-              </p>
-              <p class="text">
-                Tech/Tool - Angular, Angular Material, Fake Store API, Netlify.
-              </p>
-              <a
-                href="https://web-fake-store.netlify.app"
-                class="link-custom"
-                target="_blank"
-                >web-store</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 mb-4 d-flex">
-          <div class="card-custom rounded-4 bg-base shadow-effect flex-fill">
-            <div class="card-custom-content p-4">
-              <h4>eGoldWSMP</h4>
-              <p class="text">
-                eGoldWSMP Admin Dashabord web application for shipping platform.
-                Created responsive UI & Collaborate with the backend team &
-                integrated AWS REST API
-              </p>
-              <p class="text">
-                Tech/Tool - Angular, Angular Material, Bootstrap, CKEditor, AWS
-                REST API, AWS.
-              </p>
-              <a href="#" class="link-custom" target="_blank">Link</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 mb-4 d-flex">
-          <div class="card-custom rounded-4 bg-base shadow-effect">
-            <div class="card-custom-image rounded-4">
-                <img class="rounded-4" src="../assets/project-3.png" alt="" />
-              </div>
-            <div class="card-custom-content p-4">
-              <h4>Shopkeeper</h4>
-              <p class="text">
-                Developed Dashabord web application for Shop using Angular CORE
-                UI. Created responsive UI & integrated Node REST API.
-              </p>
-              <p class="text">
-                Tech/Tool - Angular, Angular CORE UI, Angular DataTables.
-              </p>
-              <a href="#" class="link-custom" target="_blank">Link</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 mb-4 d-flex">
-          <div class="card-custom rounded-4 bg-base shadow-effect">
-            <div class="card-custom-image rounded-4">
-                <img class="rounded-4" src="../assets/project-2.png" alt="" />
-              </div>
-            <div class="card-custom-content p-4">
-              <h4>Dynamic Form</h4>
-              <p class="text">
-                Create Dynamic Form generation using Reactive Form, Add Form
-                Validation, also create form using json data set. Create
-                Resuable Component in Angular.
-              </p>
-              <p class="text">Tech/Tool - Angular, Boostrap, JSON, Netlify.</p>
-              <a href="#" class="link-custom" target="_blank">Link</a>
-            </div>
-          </div>
-        </div> -->
-
-        <!-- Add the remaining columns here in the same format -->
       </div>
     </div>
   </section>
 
   <!-- About -->
-  <section id="about" class="fill-height px-lg-5">
+  <section id="experience" class="fill-height px-lg-5">
     <div class="container">
       <div class="row pb-4" data-aos="fade-up">
         <div class="col-lg-8">
-          <h4 class="text-brand">About</h4>
-          <!-- <h2>Experience & Education</h2> -->
+          <h4 class="text-brand">Experience</h4>
         </div>
       </div>
       <div class="row gy-5">
         <div class="col-lg-12">
-          <h4 data-aos="fade-up" data-aos-delay="300">Experience</h4>
           <div class="row gy-4 mb-2">
             <div class="col-12">
               <div class="bg-base p-4 rounded-4 shadow-effect">
@@ -414,108 +339,164 @@
               </div>
             </div>
           </div>
-          <!-- <div class="row gy-4 mb-2">
-            <div class="col-12">
-              <div class="bg-base p-4 rounded-4 shadow-effect">
-                <h5>Software Engineer</h5>
-                <p class="text-brand mb-2">
-                  Narola Infotech, Surat (Aug-2022 - March-2024)
-                </p>
-                <p class="mb-0 text-justify">
-                  eGold Operation Panel: - Develop web applications to
-                  effectively manage the operation of the product, orders &
-                  courier delivery operations. <br /><br />
-                  ShopKeeper: - Develop web applications to assist small &
-                  medium-sized retail businesses in managing their operations
-                  effectively. - ShopKeeper Tracks inventory efficiently &
-                  maintains a customer database within the application.
-                </p>
-              </div>
-            </div>
-          </div> -->
-          <!-- <div class="row gy-4">
-            <div class="col-12">
-              <div class="bg-base p-4 rounded-4 shadow-effect">
-                <h5>Frontend Developer Intern</h5>
-                <p class="text-brand">Narola Infotech</p>
-                <p class="text-brand mb-2">
-                  Broadview Innovations, Surat (Jan-22 to May-22)
-                </p>
-                <p class="mb-0">
-                  Learned Html,Css,Javascript,React. fix issues in React and
-                  worked with QA and tested the code.
-                </p>
-              </div>
-            </div>
-          </div> -->
         </div>
-        <!-- <div class="col-lg-6">
-          <h4 data-aos="fade-up" data-aos-delay="300">Education</h4>
-          <div class="row gy-4 mb-2">
-            <div class="col-12">
-              <div class="bg-base p-4 rounded-4 shadow-effect">
-                <h5>B.E in Computer Science Engineer (2019-2022)</h5>
-                <p class="text-brand mb-2">
-                  Gujarat Technological University, Ahmedabad.
-                </p>
-                <p class="mb-0">
-                  Good understanding on Database, Networking, Software
-                  Development.
-                </p>
-              </div>
-            </div>
-
-          </div>
-          <div class="row gy-4">
-            <div class="col-12">
-              <div class="bg-base p-4 rounded-4 shadow-effect">
-                <h5>Diploma in Computer Engineering (2016-2019)</h5>
-                <p class="text-brand mb-2">
-                  Gujarat Technological University, Ahmedabad.
-                </p>
-                <p class="mb-0">
-                  Good understanding on programming language and OOPS Concepts.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> -->
       </div>
-      <div class="row gy-5 mt-2">
-        <div class="col-lg-12">
-          <h4 data-aos="fade-up" data-aos-delay="300">Education</h4>
-          <div class="row gy-4 mb-2">
-            <div class="col-12">
-              <div class="bg-base p-4 rounded-4 shadow-effect">
-                <h5>B.E in Computer Science Engineer (2018-2022)</h5>
-                <p class="text-brand mb-2">
-                  Chandigarh University, mohali,Punjab.
-                </p>
-                <p class="mb-0">
-                  Good understanding on Database, Networking, Software
-                  Development.
-                </p>
-              </div>
+    </div>
+  </section>
+  <section id="certification" class="fill-height bg-dark px-lg-5">
+    <div class="container">
+      <div class="row pb-4" data-aos="fade-up">
+        <div class="col-lg-8">
+          <h4 class="text-brand">Certificate</h4>
+        </div>
+      </div>
+      <div class="row d-flex">
+        <div class="col-lg-4 mb-4 d-flex">
+          <div class="card-custom rounded-4 bg-base shadow-effect flex-fill">
+            <div class="card-custom-image rounded-4">
+              <img class="rounded-4" src="../assets/certificate-1.png" alt="" />
+            </div>
+            <div class="card-custom-content p-4">
+              <h4>Algorithmic ToolBox</h4>
+              <h5>(Coursera)</h5>
+              <p class="text">
+                This course helped me gain proficiency in key algorithms, data structures, and problem-solving techniques. It enhanced my ability to efficiently solve complex computational challenges in software development and data science.              </p>
+              <p class="text">Tech/Tool - DataStructure, VSCode</p>
+              <a
+                href="https://www.coursera.org/account/accomplishments/verify/FHN58DA8LM8T?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+                target="_blank"
+                class="text-brand"
+                >AlgorithmicToolbox</a>
             </div>
           </div>
-          <div class="row gy-4">
-            <div class="col-12">
-              <div class="bg-base p-4 rounded-4 shadow-effect">
-                <h5>Senior Secondary</h5>
-                <p class="text-brand mb-2">
-                  Navals National Academy, Gorakhpur.
-                </p>
-                <p class="mb-0">
-                  Good understanding on programming language and OOPS Concepts.
-                </p>
-              </div>
+        </div>
+
+        <div class="col-lg-4 mb-4 d-flex">
+          <div class="card-custom rounded-4 bg-base shadow-effect flex-fill">
+            <div class="card-custom-image rounded-4">
+              <img class="rounded-4" src="../assets/certificate-2.png" alt="" />
+            </div>
+            <div class="card-custom-content p-4">
+              <h4>Introduction to Front-End Development</h4>
+              <h5>(Meta)</h5>
+              <p class="text">
+                This course helped me gain proficiency in mobile and web development, focusing on key front-end technologies and frameworks. It enhanced my ability to build responsive and dynamic web applications, equipping me with the skills needed for a career in front-end development.
+              </p>
+              <p class="text">Tech/Tool - HTML, CSS, React, Javascript</p>
+              <a
+                href="https://shorturl.at/s0Q4t"
+                target="_blank"
+                class="text-brand"
+                >Introduction to Front-End Development</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4 d-flex">
+          <div class="card-custom rounded-4 bg-base shadow-effect flex-fill">
+            <div class="card-custom-image rounded-4">
+              <img class="rounded-4" src="../assets/certificate-3.png" alt="" />
+            </div>
+            <div class="card-custom-content p-4">
+              <h4>Database Management Essentials</h4>
+              <h5>(Coursera)</h5>
+              <p class="text">
+                This course helped me gain proficiency in database design, management, and optimization. It enhanced my ability to efficiently handle data storage, retrieval, and manipulation, providing a strong foundation for managing databases in software development and data-driven applications.
+              </p>
+              <p class="text">Tech/Tool - MySql, DBMS, Sql</p>
+              <a
+                href="https://shorturl.at/sZ6NT"
+                target="_blank"
+                class="text-brand"
+                >Database Management Essentials</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4 d-flex">
+          <div class="card-custom rounded-4 bg-base shadow-effect flex-fill">
+            <div class="card-custom-image rounded-4">
+              <img class="rounded-4" src="../assets/certificate-4.png" alt="" />
+            </div>
+            <div class="card-custom-content p-4">
+              <h4>Ethical Hacking</h4>
+              <h5>(Internshala)</h5>
+              <p class="text">
+                This course helped me gain proficiency in ethical hacking techniques, including vulnerability assessment, penetration testing, and security protocols. It enhanced my ability to identify and address cybersecurity threats, providing a strong foundation in ethical hacking and network security.              </p>
+              <p class="text">Tech/Tool - Footprinting, VAPT, OWSAP, Sql Injections, XSS, CSRF</p>
+              <a
+                href="https://trainings.internshala.com/s/v/164075/3c839f93"
+                target="_blank"
+                class="text-brand"
+                >Ethical Hacking</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4 d-flex">
+          <div class="card-custom rounded-4 bg-base shadow-effect flex-fill">
+            <div class="card-custom-image rounded-4">
+              <img class="rounded-4" src="../assets/digital.png" alt="" />
+            </div>
+            <div class="card-custom-content p-4">
+              <h4>The Fundamentals of Digital Marketing</h4>
+              <h5>(Google)</h5>
+              <p class="text">
+                This course helped me gain a strong understanding of key digital marketing concepts, including SEO, SEM, content marketing, and social media strategies. It enhanced my ability to create and implement effective digital marketing campaigns to drive online growth and engagement.              <a
+                href="https://drive.google.com/file/d/156U5qWTMc335OnZnaIXF-i2_VRZNC88k/view"
+                target="_blank"
+                class="text-brand"
+                >The Fundamentals of Digital Marketing</a
+              >
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-
+<!-- Education -->
+<section id="education" class="fill-height px-lg-5 padding-top">
+  <div class="container">
+    <div class="row pb-4" data-aos="fade-up">
+      <div>
+        <h4 class="text-brand">Education</h4>
+      </div>
+    </div>
+      <div class="col-lg-12">
+        <div>
+          <div class="col-12">
+            <div class="bg-base p-4 rounded-4 shadow-effect">
+              <h5>B.E in Computer Science Engineer (2018-2022)</h5>
+              <p class="text-brand mb-2">
+                Chandigarh University, mohali,Punjab.
+              </p>
+              <p class="mb-0">
+                Good understanding on Database, Networking, Software
+                Development.
+              </p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row gy-4">
+          <div class="col-12">
+            <div class="bg-base p-4 rounded-4 shadow-effect">
+              <h5>Senior Secondary</h5>
+              <p class="text-brand mb-2">
+                Navals National Academy, Gorakhpur.
+              </p>
+              <p class="mb-0">
+                Good understanding on programming language and OOPS Concepts.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
   <!-- Contact -->
   <section id="contact" class="full_height_contact bg-dark">
     <div class="container">

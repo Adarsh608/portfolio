@@ -22,20 +22,26 @@ export class AppComponent implements OnInit {
 
   @HostListener("window:scroll", []) onScroll(): void {
     const homeElement = document.getElementById("home");
-    const aboutElement = document.getElementById("about");
+    const experienceElement = document.getElementById("experience");
     const skillElement = this.document.getElementById("skill");
     const workElement = this.document.getElementById("work");
+    const certElement = this.document.getElementById("certification");
+    const eduElement = this.document.getElementById("education");
     const contectElement = this.document.getElementById("contact");
 
     if (this.isElementInViewport(homeElement)) {
       this.activeNavItem = "home";
-    } else if (this.isElementInViewport(aboutElement)) {
-      this.activeNavItem = "about";
+    } else if (this.isElementInViewport(experienceElement)) {
+      this.activeNavItem = "experience";
     } else if (this.isElementInViewport(skillElement)) {
       this.activeNavItem = "skill";
     } else if (this.isElementInViewport(workElement)) {
       this.activeNavItem = "work";
-    } else if (this.isElementInViewport(contectElement)) {
+    }else if (this.isElementInViewport(certElement)) {
+      this.activeNavItem = "certification";
+    }else if (this.isElementInViewport(eduElement)) {
+      this.activeNavItem = "education";
+    }else if (this.isElementInViewport(contectElement)) {
       this.activeNavItem = "contact";
     }
   }
