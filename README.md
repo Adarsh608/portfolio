@@ -11,7 +11,7 @@ Welcome to my GitHub! I'm a passionate **Angular Full Stack Developer** with str
 - **Cloud**: AWS (S3, EC2), Firebase
 
 ## 💻 GitHub Stats
-![Adash's GitHub Stats](https://github-readme-stats.vercel.app/api?username=adashrao&show_icons=true&hide_title=true&count_private=true&hide=prs)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=adarsh608)](https://github.com/anuraghazra/github-readme-stats)
 
 ## 🌱 I’m currently learning...
 - Advanced Angular features (RxJS, State Management)
